@@ -1,0 +1,30 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+	background: #833ab4;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.bg {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form > * {
+	border: 0;
+	padding: 10px;
+	background: #FFF;
+	line-height: 60px;
+	font-size: 30px;
+}
+
+.form input[type="submit"] {
+	background: #EAB543;
+	border: 2px solid #EAB543;
+	color:#FFF;
+}

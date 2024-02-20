@@ -1,0 +1,11 @@
+.container {
+	display: flex;
+	border: 1px solid black;
+	height: 500px;/*let height be 500px we can take full screen as well*/
+	justify-content: center;
+/*	align-items: center;
+	align-items: flex-end;
+	align-items: flex-start;
+	align-items: stretch;*/
+	align-items: baseline;
+}

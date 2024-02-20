@@ -1,0 +1,9 @@
+.container {
+	border: 1px solid black;
+	width: 600px;
+	display: flex;
+	flex-wrap: wrap;
+	/*flex-wrap: wrap-reverse;
+	flex-wrap: nowrap;*/
+	justify-content: center;
+}
